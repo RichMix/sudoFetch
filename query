@@ -1,0 +1,1 @@
+grep "COMMAND=" audit.log | awk -F 'sudo:' '{print $2}' | awk '{print $1}' | sort | uniq | wc -l
