@@ -1,0 +1,1 @@
+grep "authentication failure" audit.log | wc -l
